@@ -27,8 +27,8 @@ function SortArray(arr) {
     }
     //found max and min element`s indexes of array
     for (var i = 0; i < arr.length; i++) {
-        arr[i] == max ? maxIndex = i : a;
-        arr[i] == min ? minIndex = i : a;
+        arr[i] === max ? maxIndex = i : a;
+        arr[i] === min ? minIndex = i : a;
         cout += arr[i];
     }
     //swap max and min elements of array 
